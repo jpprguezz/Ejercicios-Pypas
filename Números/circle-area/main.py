@@ -1,6 +1,6 @@
 def run(radius) -> float:
     PI = 3.14
-    area = PI * (radius**2)
+    area = PI * radius**2
     return area
 
 
