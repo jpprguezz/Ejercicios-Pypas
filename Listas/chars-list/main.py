@@ -1,8 +1,8 @@
 def run(texts: list) -> list:
-    formatted_texts = "".join(texts)
-    chars = []
-    for letter in formatted_texts:
-        chars.append(letter)
+    formatted_texts = "".join(texts) # Unimos el texto quitando los espacios para poder usarlo todo junto
+    chars = []  # Creamos una lista vacia para guardar las letras que veamos con el bucle
+    for letter in formatted_texts: # Recorremos el texto
+        chars.append(letter) # Añadimos cada letra a la listga vacia
     return chars
 
 
