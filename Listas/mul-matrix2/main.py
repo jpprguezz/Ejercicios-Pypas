@@ -3,7 +3,7 @@ def run(A: list, B: list) -> list:
     num2 = (A[0][0] * B[0][1]) + (A[0][1] * B[1][1])
     num3 = (A[1][0] * B[0][0]) + (A[1][1] * B[1][0])
     num4 = (A[1][0] * B[0][1]) + (A[1][1] * B[1][1])
-    P = [[numerator_1, denominator_1], [numerator_2, denominator_2]]  # Se representan los numeradores y denominadores en dos listas dentro de una lista para obtener el resultado
+    P = [[num1, num2], [num3, num4]]  # Se representan los numeradores y denominadores en dos listas dentro de una lista para obtener el resultado
     return P
 
 
