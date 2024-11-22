@@ -1,9 +1,9 @@
 def run(A: list, B: list) -> list:
-    numerator_1 = (A[0][0] * B[0][0]) + (A[0][1] * B[1][0])
+    numerator_1 = (A[0][0] * B[0][0]) + (A[0][1] * B[1][0])  # Simplemente consiste en usar los indices de las listas para ir haciendo las operaciones
     denominator_1 = (A[0][0] * B[0][1]) + (A[0][1] * B[1][1])
     numerator_2 = (A[1][0] * B[0][0]) + (A[1][1] * B[1][0])
     denominator_2 = (A[1][0] * B[0][1]) + (A[1][1] * B[1][1])
-    P = [[numerator_1, denominator_1], [numerator_2, denominator_2]]
+    P = [[numerator_1, denominator_1], [numerator_2, denominator_2]]  # Se representan los numeradores y denominadores en dos listas dentro de una lista para obtener el resultado
     return P
 
 
