@@ -7,7 +7,6 @@ def run(input_date: str, base_year: int) -> str:
     reorganizated_date = "-".join(new_date_elements)  # Usamos join para que los separadores entre números sean "-"
     output_date = reorganizated_date
     return output_date
-
 # DO NOT TOUCH THE CODE BELOW
 if __name__ == "__main__":
     import vendor
